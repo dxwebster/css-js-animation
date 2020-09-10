@@ -7,11 +7,11 @@
   
 </h6>
 
-O Animation-CSS é uma ferramenta que permite trabalhar com transições de elementos e componentes da nossa página em HTML, utilizando os keyframes, que indicam estados iniciais e finais da animação.
+O Animation-CSS é um recurso que permite trabalhar com transições de elementos e componentes da nossa página em HTML, utilizando os keyframes para indicar estados iniciais, intermediários e finais da animação.
 
 E conjunto com o Java Script temos a possibilidade de complementar e controlar essas animações, para que ocorram em determinados eventos da nossa página, assim como, criar e estilizar elementos de forma dinâmica.
 
-Nesse estudo, utilizamos um formulário para demonstrar alguns recursos dessa ferramenta.
+Nesse estudo, utilizamos um formulário para demonstrar algumas possibilidades.
 
 ## Fazer o formulário aparecer, suavemente, quando a página abrir
 
