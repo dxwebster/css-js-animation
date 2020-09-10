@@ -1,7 +1,7 @@
 <h1 align=center> Formulário animado com JS puro e CSS Animation</h1>
 
 <h3 align=center>
-<img src="form.gif" width=600><br>
+<img src="form-animation.gif" width=600><br>
 </h3>
 
 O Animation-CSS é uma ferramenta do CSS que permite trabalhar com transições de elementos, componentes da nossa página em HTML, utilizando os keyframmes, que indicam estados iniciais e finais da animação. Entretanto, usando o Java script é possível complementar essas animações, para que ocorram em determinados eventos da nossa página, como cliques de botões, envio de formulários e etc.
