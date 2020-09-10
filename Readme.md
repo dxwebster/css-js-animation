@@ -4,9 +4,11 @@
 <img src="form-animation.gif" width=600><br>
 </h3>
 
-O Animation-CSS é uma ferramenta do CSS que permite trabalhar com transições de elementos, componentes da nossa página em HTML, utilizando os keyframmes, que indicam estados iniciais e finais da animação. Entretanto, usando o Java script é possível complementar essas animações, para que ocorram em determinados eventos da nossa página, como cliques de botões, envio de formulários e etc.
+O Animation-CSS é uma ferramenta que permite trabalhar com transições de elementos e componentes da nossa página em HTML, utilizando os keyframes, que indicam estados iniciais e finais da animação.
 
-Nesse estudo, utilizamos um formulário para demonstrar alguns recursos dessa ferramenta:
+E conjunto com o Java Script temos a possibilidade de complementar e controlar essas animações, para que ocorram em determinados eventos da nossa página, assim como, criar e estilizar elementos de forma dinâmica.
+
+Nesse estudo, utilizamos um formulário para demonstrar alguns recursos dessa ferramenta.
 
 ## Fazer o formulário aparecer, suavemente, quando a página abrir
 
