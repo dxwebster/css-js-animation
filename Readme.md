@@ -1,8 +1,11 @@
 <h1 align=center> Formulário animado com JS puro e CSS Animation</h1>
 
-<h3 align=center>
+<h6 align=center>
 <img src="form-animation.gif" width=600><br>
-</h3>
+  
+  Baseado no vídeo: [Formulário Animado com JS puro e CSS Animation | Mayk Brito](https://www.youtube.com/watch?v=GykTLqODQuU&t=2401s)
+  
+</h6>
 
 O Animation-CSS é uma ferramenta que permite trabalhar com transições de elementos e componentes da nossa página em HTML, utilizando os keyframes, que indicam estados iniciais e finais da animação.
 
