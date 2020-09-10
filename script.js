@@ -22,11 +22,7 @@ btnLogin.addEventListener("click", event => {
     } else {
         form.classList.add("form-hide"); // adiciona a classe form-hide que contém a animação 'down'
     }
-
 })
-
-
-
 
 // quando a animação chamada 'down' do form começar:
 form.addEventListener("animationstart", event => {
@@ -41,7 +37,32 @@ form.addEventListener("animationend", event => {
         form.style.display = "none" // adicione o display none no form
         body.style.overflow = "none" // volta overflow do body
     }
-
 })
 
 
+// Background  Squares
+
+const ulSquares = document.querySelector("ul.squares");
+
+for (let i = 0; i < 14; i++) {
+  const li = document.createElement("li");// cria um li até satisfazer a condição
+
+  const random = (min, max) => Math.random() * (max - min) + min;// Math.random() cria valores randômicos de 0 a 1
+
+  const size = Math.floor(random(10, 120)); // cria um tamanho dinâmico
+  const position = random(1, 99);// cria uma posição dinâmica
+  const delay = random(0.1, 2 );// cria um delay dinâmico (tempo que demora pra começar)
+  const duration = random(5, 10);// cria uma duração dinâmica (tempo total da animação)
+
+  li.style.width = `${size}px`;
+  li.style.height = `${size}px`;
+  li.style.bottom = `-${size}px`;
+
+  li.style.left = `${position}%`;
+
+  li.style.animationDelay = `${delay}s`;
+  li.style.animationDuration = `${duration}s`;
+  li.style.animationTimingFunction = `cubic-bezier(${Math.random()}, ${Math.random()}, ${Math.random()}, ${Math.random()})`;
+
+  ulSquares.appendChild(li);// coloca esses li dentro da ul
+}
