@@ -4,11 +4,11 @@
 <img src="form.gif" width=600><br>
 </h3>
 
-O Animation-CSS é uma ferramenta do CSS que permite trabalhar com transições de elementos, componentes da nossa página em HTML, utilizando os keyframmes, que indicam estados iniciais e finais da animação. Entretando, usando o Java script é possível complementar essas animações, para que ocorram em determinados eventos da nossa página, como cliques de botões, envio de formulários e etc.
+O Animation-CSS é uma ferramenta do CSS que permite trabalhar com transições de elementos, componentes da nossa página em HTML, utilizando os keyframmes, que indicam estados iniciais e finais da animação. Entretanto, usando o Java script é possível complementar essas animações, para que ocorram em determinados eventos da nossa página, como cliques de botões, envio de formulários e etc.
 
 Nesse estudo, utilizamos um formulário para demonstrar alguns recursos dessa ferramenta:
 
-## [x] Fazer o formulário aparecer, suavemente, quando a página abrir
+## Fazer o formulário aparecer, suavemente, quando a página abrir
 
 Para isso, criamos uma animação utilizando os `@keyframes` e chamamos a animação no form, setando um delay de 500ms (tempo que demora para a animação começar)
 
@@ -29,7 +29,7 @@ form {
 
 ```
 
-##  [x] Fazer os campos aparecem da esquerda pra direita, suavizando a entrada e fazendo-os entrar em momentos distintos
+##  Fazer os campos aparecem da esquerda pra direita, suavizando a entrada e fazendo-os entrar em momentos distintos
 
 Da mesma forma, vamos criar uma animação de entrada pela esquerda utilizando keyframes, e colocando um valor de delay diferente pra cada input. Ou seja, o primeiro input entra primeiro, e o segundo input entra depois. Só que para o segundo input aparecer só após o primeiro, precisamos setar uma propriedade chamada `animation-fill-mode: backwards`, assim ele vai ficar com os estilos do `from` da animação, nesse caso com o opacity: 0 e translateX(-35%), até que sua animação comece de fato.
 
@@ -62,7 +62,7 @@ form .input-block:nth-child(2) {
 
 ```
 
-##  [x] Quando clicar em Login, fazer o formulário sair da tela, indo para baixo
+##  Quando clicar em Login, fazer o formulário sair da tela, indo para baixo
 
 A partir daqui, vamos utlizar o Java Script para controlar as animmações  que ocorrerão após algum evento específico. vamos criar a animação no CSS em que o form vai para baixo da tela, e inclui-la numa classe '.form-hide'.
 
@@ -120,7 +120,7 @@ form.addEventListener("animationend", event => {
 })
 ```
 
-##  [x] Fazer o formulário dizer vibrar horizontalmente (sinal de não) caso haja campos vazios.
+##  Fazer o formulário dizer vibrar horizontalmente (sinal de não) caso haja campos vazios.
 
 Agora vamos incluir na function de click do botão uma validação do formulário. Para isso criaremos um script que vai verificar se os campos do input estão vazios. Caso estejam, a animação acontece, caso não, executa a animação de esconder o form.
 
@@ -152,7 +152,7 @@ btnLogin.addEventListener("click", event => {
 ```
 
 
-##  [x] Criar background animado
+##  Criar background animado
 
 O background vai conter alguns quadrados animados (que fiquem girando) e que saem de baixo da tela (fora do campo de visão) e vão para cima da tela (que saia do campo de visão também). _Detalhes_: Deve ter tamanhos diferentes, sairem em momentos diferentes, terem timing diferente, animação contínua.
 
