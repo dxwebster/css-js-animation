@@ -223,3 +223,7 @@ for (let i = 0; i < 14; i++) {
 }
 
 ```
+## 📕 Licença
+
+Todos os arquivos incluídos aqui, incluindo este _Readme_, estão sob [Licença MIT](./LICENSE).<br>
+Criado com ❤ por [Adriana Lima](https://github.com/dxwebster)
