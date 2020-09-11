@@ -66,6 +66,15 @@ form .btn-login {
   border-radius: 25px;
   margin: auto;
   padding: 7px;
+  cursor: pointer;
+}
+
+form .btn-login:hover {
+  background-color: #514088;
+}
+
+form .btn-login:focus{
+  outline: none;
 }
 
 
